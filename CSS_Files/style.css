@@ -64,11 +64,10 @@ section {
     height: 100vh;
     scroll-snap-align: center;
 }
-.img{
-    object-fit: contain;
-}
+
+
 section#Home {
-    background: url("../Images/Penny.jpg") no-repeat center center/contain;
+    background: url("../Images/Title.png") no-repeat center center/contain, url("../Images/Penny.jpg") no-repeat center center/contain;
 }
 
 section#About {
